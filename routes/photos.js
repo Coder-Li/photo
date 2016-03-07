@@ -11,7 +11,7 @@ photos.push({
 
 exports.list = function(req, res){
     res.render('photos', {
-        titile: 'Photos',
+        title: 'Photos',
         photos: photos
     });
 };
